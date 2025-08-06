@@ -41,6 +41,6 @@
 
   🆘 Need Help?
 
-  - **New Action Documentation**: [https://github.com/liquibase/setup-liquibase](https://github.com/liquibase/setup-liquibase)
-  - **Migration Guide**: See examples above
-  - **Issues**: Report problems at [https://github.com/liquibase/setup-liquibase/issues](https://github.com/liquibase/setup-liquibase/issues)
+  - New Action Documentation: https://github.com/liquibase/setup-liquibase
+  - Migration Guide: See examples above
+  - Issues: Report problems at https://github.com/liquibase/setup-liquibase/issues
