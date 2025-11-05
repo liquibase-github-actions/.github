@@ -7,7 +7,7 @@
 **Use the new unified Liquibase action instead:**
 
 ```yaml
-- uses: liquibase/setup-liquibase@v1
+- uses: liquibase/setup-liquibase@v2
   with:
     version: '4.32.0'  # Requires 4.32.0 or higher
     edition: 'oss'
@@ -26,7 +26,7 @@
 
 **✅ New Approach (Recommended):**
 ```yaml
-- uses: liquibase/setup-liquibase@v1
+- uses: liquibase/setup-liquibase@v2
   with:
     version: '4.33.0'
     edition: 'oss'
@@ -36,13 +36,13 @@
 ## 📋 Migration Steps
 
 1. **Check your Liquibase version** - Ensure you're using 4.32.0 or higher
-2. **If using older version** - Update to 4.32.0+ first using current micro actions  
-3. **Then migrate** - Switch to `liquibase/setup-liquibase@v1`
+2. **If using older version** - Update to 4.32.0+ first using current micro actions
+3. **Then migrate** - Switch to [`liquibase/setup-liquibase`](https://github.com/liquibase/setup-liquibase)
 
 ## 🕐 Support Timeline
 
 - **Liquibase 4.x**: ✅ Continued support for existing micro actions
-- **Liquibase 5.x**: ❌ No updates - Use `setup-liquibase@v1` only
+- **Liquibase 5.x**: ❌ No updates - Use [`setup-liquibase`](https://github.com/liquibase/setup-liquibase) only
 
 ## 🆘 Need Help?
 
